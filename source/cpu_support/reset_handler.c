@@ -15,7 +15,7 @@ static void load_data_section(void);
 /*
  * Upon reset, the CPU executes content in the reset handler.
  */
-__attribute__((noreturn))
+__attribute__((naked, noreturn))
 void reset_handler(void)
 {
     /*

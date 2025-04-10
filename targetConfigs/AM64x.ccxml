@@ -26,7 +26,7 @@
                             </cpu>
                         </subpath>
                     <subpath id="MAIN_PULSAR_0_1">
-                            <cpu HW_revision="1.0" XML_version="1.2" description="Cortex_R5 CPU 1" id="MAIN_PULSAR_Cortex_R5_0_1" isa="Cortex_R5">
+                            <cpu HW_revision="1.0" XML_version="1.2" description="Cortex_R5 CPU 1" deviceSim="false" id="MAIN_PULSAR_Cortex_R5_0_1" isa="Cortex_R5">
                                 <property Type="choicelist" Value="0" id="Slave Processor"/>
                             </cpu>
                         </subpath>
